@@ -76,7 +76,7 @@ public class getEvents extends AsyncTask<Object, Void, Void> {
         //mContext = (Context) parameters[0];
         //myView = (ListViewLoader) parameters[1];
 
-        Log.e("Response: ", "> " + json);
+        //Log.e("Response: ", "> " + json);
 
         if (json != null) {
             try {
@@ -96,7 +96,7 @@ public class getEvents extends AsyncTask<Object, Void, Void> {
                                 evObj.getString("picture"),
                                 evObj.getString("description"),
                                 evObj.getString("city"));
-                        Log.i("INFO", "Event: " + ev.toString());
+                        //Log.i("INFO", "Event: " + ev.toString());
                         eventsList.add(ev);
                     }
                 }

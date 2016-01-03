@@ -22,7 +22,7 @@
             android:layout_marginBottom="10dp"
             android:layout_marginTop="@dimen/g_top_margin"
             android:contentDescription="@string/desc_google_icon"
-            android:src="@drawable/googleg_color" />
+            android:src="@drawable/tonight_logo" />
 
         <TextView
             android:id="@+id/title_text"
@@ -96,7 +96,8 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="@string/disconnect"
-                android:theme="@style/ThemeOverlay.MyDarkButton" />
+                android:theme="@style/ThemeOverlay.MyDarkButton"
+                android:visibility="gone" />
         </LinearLayout>
 
     </RelativeLayout>

@@ -120,10 +120,6 @@
         "source": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\build\\intermediates\\res\\merged\\debug\\layout\\drawer_layout.xml",
-        "source": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\src\\main\\res\\layout\\drawer_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\layout\\design_layout_snackbar.xml"
     },

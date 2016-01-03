@@ -74,7 +74,7 @@ public class Tools {
             //Let's try opening the file from the cache
             try {
                 myBitMapFromCache = BitmapFactory.decodeStream(mContext.openFileInput(fileName));
-                Log.i("Caching Service", "File " + fileName + "was in cache, using it");
+                //Log.i("Caching Service", "File " + fileName + "was in cache, using it");
             } catch (FileNotFoundException fne) {
                 //In case the file was not previously cached, we download it and cache it
                 Log.i("Caching service", "File " + fileName + " was not cached yet, downloading...");

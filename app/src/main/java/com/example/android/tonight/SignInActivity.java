@@ -1,5 +1,6 @@
 package com.example.android.tonight;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -93,11 +94,11 @@ public class SignInActivity extends AppCompatActivity implements
             // If the user has not previously signed in on this device or the sign-in has expired,
             // this asynchronous branch will attempt to sign in the user silently.  Cross-device
             // single sign-on will occur in this branch.
-            showProgressDialog();
+            //showProgressDialog();
             opr.setResultCallback(new ResultCallback<GoogleSignInResult>() {
                 @Override
                 public void onResult(GoogleSignInResult googleSignInResult) {
-                    hideProgressDialog();
+                    //hideProgressDialog();
                     handleSignInResult(googleSignInResult);
                 }
             });
@@ -114,6 +115,8 @@ public class SignInActivity extends AppCompatActivity implements
             GoogleSignInResult result = Auth.GoogleSignInApi.getSignInResultFromIntent(data);
             handleSignInResult(result);
         }
+
+        setResult(Activity.RESULT_OK);
         this.finish();
     }
     // [END onActivityResult]
@@ -152,6 +155,8 @@ public class SignInActivity extends AppCompatActivity implements
                     public void onResult(Status status) {
                         // [START_EXCLUDE]
                         updateUI(false);
+                        setResult(Activity.RESULT_OK);
+                        finish();
                         // [END_EXCLUDE]
                     }
                 });

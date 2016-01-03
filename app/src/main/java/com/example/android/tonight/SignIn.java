@@ -12,6 +12,8 @@ import com.google.android.gms.auth.api.signin.GoogleSignInResult;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.OptionalPendingResult;
+import com.google.android.gms.common.api.ResultCallback;
+import com.google.android.gms.common.api.Status;
 
 /**
  * Activity to demonstrate basic retrieval of the Google user's ID, email address, and basic
@@ -98,6 +100,19 @@ public class SignIn implements
         // be available.
         Log.d(TAG, "onConnectionFailed:" + connectionResult);
     }
+
+    // [START signOut]
+    private void signOut() {
+        Auth.GoogleSignInApi.signOut(mGoogleApiClient).setResultCallback(
+                new ResultCallback<Status>() {
+                    @Override
+                    public void onResult(Status status) {
+                        // [START_EXCLUDE]
+                        // [END_EXCLUDE]
+                    }
+                });
+    }
+    // [END signOut]
 
     public boolean isAuthSuccessfull(){
         return this.authSuccessfull;

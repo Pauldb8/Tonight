@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "com.example.android.tonight"
+        minSdkVersion 19
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:21.0.+'
+    compile 'com.android.support:design:23.1.1'
+    //This is for getting access to the Palette to extract vibrant color from picture
+    compile 'com.android.support:palette-v7:21.0.0'
+    //This is for authenticating via Google
+    compile 'com.google.android.gms:play-services-auth:8.3.0'
+    //This is for the circle image view used in the drawer
+    compile 'de.hdodenhof:circleimageview:1.2.1'
+    //this is for using a fading action bar, found on internet
+    //compile 'com.github.manuelpeinado.fadingactionbar:fadingactionbar-abc:3.1.2'
+}

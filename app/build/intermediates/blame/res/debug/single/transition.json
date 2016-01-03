@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\build\\intermediates\\res\\merged\\debug\\transition\\explode.xml",
+        "source": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\src\\main\\res\\transition\\explode.xml"
+    },
+    {
+        "merged": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\build\\intermediates\\res\\merged\\debug\\transition\\fade.xml",
+        "source": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\src\\main\\res\\transition\\fade.xml"
+    },
+    {
+        "merged": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\build\\intermediates\\res\\merged\\debug\\transition\\change_image_transform.xml",
+        "source": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\src\\main\\res\\transition\\change_image_transform.xml"
+    }
+]

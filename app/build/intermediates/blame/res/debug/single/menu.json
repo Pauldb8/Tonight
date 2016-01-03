@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_add_event.xml",
+        "source": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\src\\main\\res\\menu\\menu_add_event.xml"
+    },
+    {
+        "merged": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_event_description.xml",
+        "source": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\src\\main\\res\\menu\\menu_event_description.xml"
+    },
+    {
+        "merged": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer_menu.xml",
+        "source": "C:\\Users\\onetec\\AndroidStudioProjects\\Tonight\\app\\src\\main\\res\\menu\\drawer_menu.xml"
+    }
+]
